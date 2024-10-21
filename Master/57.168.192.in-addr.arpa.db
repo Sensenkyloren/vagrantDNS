@@ -1,0 +1,15 @@
+$TTL 86400
+@   IN  SOA  ns1.sistema.test. admin.sistema.test. (
+        2023102101 ; Número de serie
+        3600       ; Refresh
+        1800       ; Retry
+        1209600    ; Expire
+        86400 )    ; Negative Cache TTL
+
+    IN  NS  ns1.sistema.test.
+    IN  NS  ns2.sistema.test.
+
+1     IN  PTR tierra.sistema.test.
+2     IN  PTR venus.sistema.test.
+3     IN  PTR marte.sistema.test.
+s
